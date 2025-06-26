@@ -17,13 +17,13 @@
 </head>
 
 <body>
-    <div class="hero_area g-4">
+    <div class="hero_area d-flex flex-column ">
         <div class="bg-box ">
-            <img class="w-100" src="img/hero-bg.jpg" alt="">
+            <img class="w-100 object-fit-cover" src="img/hero-bg.jpg" alt="">
         </div>
         <!-- header section strat -->
-        <header class="header_section  py-3">
-            <div class="container container-fluide  g-4">
+        <header class="header_section ">
+            <div class="container container-fluide ">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
                     <a class="navbar-brand" href="index.html">
                         <span class="dancing text-white ">
@@ -51,26 +51,26 @@
                                 <a class="nav-link text-white open nav-link-hover link-warning" href="">Book Table</a>
                             </li>
                         </ul>
-                        <div class="user_option d-flex align-middle gap-3">
+                        <div class="user_option d-flex align-items-center gap-3">
                             <form class="form-inline">
-                                <button class="btn  my-2 my-sm-0 nav_search-btn text-white nav-link-hover link-warning "
+                                <button class="btn  my-2 my-sm-0  text-white nav-link-hover link-warning "
                                     type="submit">
                                     <i class="fa fa-user"></i>
                                 </button>
                             </form>
                             <form class="form-inline">
-                                <button class="btn  my-2 my-sm-0 nav_search-btn text-white nav-link-hover link-warning "
+                                <button class="btn  my-2 my-sm-0  text-white nav-link-hover link-warning "
                                     type="submit">
                                     <i class="fa-solid fa-cart-shopping"></i>
                                 </button>
                             </form>
                             <form class="form-inline">
-                                <button class="btn  my-2 my-sm-0 nav_search-btn text-white nav-link-hover link-warning"
+                                <button class="btn  my-2 my-sm-0 text-white nav-link-hover link-warning"
                                     type="submit">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </form>
-                            <a href="" class=" nav-link px-3 py-2 rounded-pill text-white bg-warning">Order Online </a>
+                            <a href="" class="order_online nav-link px-3 py-2 rounded-pill text-white bg-warning">Order Online </a>
                         </div>
                     </div>
                 </nav>
@@ -78,7 +78,7 @@
         </header>
         <!-- header section end-->
         <!-- slider section start-->
-        <section class="slider_section d-flex justify-content-center ">
+        <section class="slider_section d-flex align-items-center ">
             <div id="customCarousel1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
@@ -96,7 +96,7 @@
                                         </p>
                                         <div class="btn-box">
                                             <a href=""
-                                                class="btn1 w-25 text-center nav-link px-3 py-2 rounded-pill text-white bg-warning">
+                                                class="btn1 text-center nav-link  rounded-pill text-white bg-warning">
                                                 Order Now
                                             </a>
                                         </div>
@@ -108,7 +108,7 @@
                     <div class="carousel-item w-100 ">
                         <div class="container ">
                             <div class="row">
-                                <div class="  col-md-7 col-lg-6 col-sm-6 col-xs-6">
+                                <div class="col-md-7 col-lg-6 col-sm-6 col-xs-6">
                                     <div class="detail-box p-4">
                                         <h1 class="dancing text-white">
                                             Fast Food Restaurant
@@ -120,7 +120,7 @@
                                         </p>
                                         <div class="btn-box">
                                             <a href=""
-                                                class="btn1 w-25 text-center nav-link px-3 py-2 rounded-pill text-white bg-warning">
+                                                class="btn1 text-center nav-link  rounded-pill text-white bg-warning">
                                                 Order Now
                                             </a>
                                         </div>
@@ -144,7 +144,7 @@
                                         </p>
                                         <div class="btn-box">
                                             <a href=""
-                                                class="btn1 w-25 text-center nav-link px-3 py-2 rounded-pill text-white bg-warning">
+                                                class="btn1 text-center nav-link rounded-pill text-white bg-warning">
                                                 Order Now
                                             </a>
                                         </div>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="container">
-                    <ol class="carousel-indicators gap-2">
+                    <ol class="carousel-indicators gap-2 align-items-center ">
                         <li data-bs-target="#customCarousel1" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#customCarousel1" data-bs-slide-to="1"></li>
                         <li data-bs-target="#customCarousel1" data-bs-slide-to="2"></li>
@@ -169,39 +169,39 @@
 
     <section class="offer_section  ">
         <div class="offer_container ">
-            <div class="container ">
+            <div class="container overflow-hidden">
                 <div class="row">
                     <div class="col-md-6  ">
-                        <div class="box d-flex p-4 rounded-3">
+                        <div class="box d-flex p-4 rounded-3 flex-wrap align-items-center">
                             <div class="img-box me-4 overflow-hidden rounded-circle">
                                 <img src="img/o1.jpg" alt="">
                             </div>
-                            <div class="detail-box p-4">
-                                <h5 class="dancing py-1 ">
+                            <div class="detail-box p-4 overflow-hidden">
+                                <h5 class="dancing py-1 text-white">
                                     Tasty Thursdays
                                 </h5>
-                                <h6 class="dancing py-1">
+                                <h6 class="dancing py-1 text-white">
                                     <span>20%</span> Off
                                 </h6>
-                                <a href="" class="text-decoration-none rounded-pill px-5 py-2 ">
+                                <a href="" class="text-decoration-none rounded-pill px-4 py-2 text-white">
                                     Order Now<i class="fa-solid fa-cart-shopping"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="box d-flex p-4 rounded-3">
+                        <div class="box d-flex p-4 rounded-3 flex-wrap">
                             <div class="img-box overflow-hidden me-4 rounded-circle">
                                 <img src="img/o2.jpg" alt="">
                             </div>
                             <div class="detail-box p-4 ">
-                                <h5 class="dancing py-1">
+                                <h5 class="dancing py-1 text-white">
                                     Pizza Days
                                 </h5>
-                                <h6 class="dancing py-1">
+                                <h6 class="dancing py-1 text-white">
                                     <span>15%</span> Off
                                 </h6>
-                                <a href="" class="text-decoration-none rounded-pill px-5 py-2 ">
+                                <a href="" class="text-decoration-none rounded-pill px-4 py-2 text-white">
                                     Order Now<i class="fa-solid fa-cart-shopping"></i>
                                 </a>
                             </div>
@@ -218,8 +218,8 @@
 
     <section class="food_section my-5">
         <div class="container">
-            <div class="heading_container text-center">
-                <h2 class="dancing">
+            <div class="heading_container d-flex flex-column text-center p-4">
+                <h2 class="dancing ">
                     Our Menu
                 </h2>
             </div>
@@ -493,7 +493,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="detail-box">
-                        <div class="heading_container">
+                        <div class="heading_container d-flex flex-column align-items-start">
                             <h2 class=" dancing text-white">
                                 We Are Feane
                             </h2>
@@ -521,7 +521,7 @@
     <!-- book section -->
     <section class="book_section p-5">
         <div class="container p-4">
-            <div class="heading_container mb-3">
+            <div class="heading_container  d-flex flex-column align-items-startmb-3">
                 <h2 class="dancing">
                     Book A Table
                 </h2>
@@ -589,7 +589,7 @@
 
     <section class="client_section layout_padding-bottom">
         <div class="container">
-            <div class="heading_container  mb_45">
+            <div class="heading_container d-flex flex-column ">
                 <h2 class="dancing text-center">
                     What Says Our Customers
                 </h2>
