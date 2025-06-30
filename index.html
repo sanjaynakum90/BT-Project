@@ -14,6 +14,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -65,12 +72,12 @@
                                 </button>
                             </form>
                             <form class="form-inline">
-                                <button class="btn  my-2 my-sm-0 text-white nav-link-hover link-warning"
-                                    type="submit">
+                                <button class="btn  my-2 my-sm-0 text-white nav-link-hover link-warning" type="submit">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </form>
-                            <a href="" class="order_online nav-link px-3 py-2 rounded-pill text-white bg-warning">Order Online </a>
+                            <a href="" class="order_online nav-link px-3 py-2 rounded-pill text-white bg-warning">Order
+                                Online </a>
                         </div>
                     </div>
                 </nav>
@@ -594,59 +601,48 @@
                     What Says Our Customers
                 </h2>
             </div>
-            <div id="slide" class="carousel slide" data-bs-touch="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="box">
-                                    <div class="detail-box">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                        </p>
-                                        <h6>
-                                            Mike Hamell
-                                        </h6>
-                                        <p>
-                                            magna aliqua
-                                        </p>
-                                    </div>
-                                    <div class="img-box ">
-                                        <img class="w-100" src="img/client2.jpg" alt="" class="box-img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="box">
-                                    <div class="detail-box">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                        </p>
-                                        <h6>
-                                            Moana Michell
-                                        </h6>
-                                        <p>
-                                            magna aliqua
-                                        </p>
-                                    </div>
-                                    <div class="img-box ">
-                                        <img class="w-100" src="img/client1.jpg" alt="" class="box-img">
-                                    </div>
-                                </div>
-                            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box">
+                        <div class="detail-box">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                            <h6>
+                                Mike Hamell
+                            </h6>
+                            <p>
+                                magna aliqua
+                            </p>
+                        </div>
+                        <div class="img-box ">
+                            <img class="w-100" src="img/client2.jpg" alt="" class="box-img">
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
-                    <span></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
-                    <span class="text-warning"><i class="fa fa-angle-left"></i></span>
-                </button>
+                <div class="item">
+                    <div class="box">
+                        <div class="detail-box">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                            <h6>
+                                Moana Michell
+                            </h6>
+                            <p>
+                                magna aliqua
+                            </p>
+                        </div>
+                        <div class="img-box ">
+                            <img class="w-100" src="img/client1.jpg" alt="" class="box-img">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -747,10 +743,33 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav : true,
+            dots : false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+    </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
