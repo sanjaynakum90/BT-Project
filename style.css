@@ -67,6 +67,25 @@
     height: 100%;
 }
 
+.sub_page .hero_area {
+    min-height: auto;
+}
+
+.sub_page .hero_area .bg-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sub_page .hero_area .bg-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right top;
+}
+
 .header_section {
     padding: 15px 0;
 }
@@ -118,6 +137,7 @@
 }
 
 .custom_nav-container .navbar-toggler {
+    display: inline-block;
     padding: 0;
     width: 37px;
     height: 42px;
@@ -460,6 +480,7 @@
     font-size: 24px;
     margin: 0 5px;
     border-radius: 100%;
+
 }
 
 /* client section end */
